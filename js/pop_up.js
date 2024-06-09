@@ -30,11 +30,8 @@ function show_time(){
     setTimeout(show_time, 1000); //1초마다 갱신
 }
 
-function over(obj) {
-    obj.src="image/LOCO2.png";
-}
 function out(obj) {
-    obj.src="image/LOCO.png";
+    obj.src="image/LOGO.png";
 }
 
 /*function close_window(){
